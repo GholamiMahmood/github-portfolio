@@ -26,31 +26,31 @@ section {
 .java {
     background-color: #FF5722; /* Orange */
     height: 70%;
-    margin: 5%;
+    margin: 1%;
 }
 
 .python {
     background-color: #2196F3; /* Blue */
     height: 65%;
-    margin:5%;
+    margin:1%;
 }
 
 .csharp {
     background-color: #4CAF50; /* Green */
     height: 65%;
-    margin: 5%;
+    margin: 1%;
 }
 
 .c {
     background-color: #FFEB3B; /* Yellow */
-    height: 50%;
-    margin: 5%;
+    width: 50%;
+    margin: 1%;
 }
 
 .cpp {
     background-color: #9C27B0; /* Purple */
     height: 50%;
-    margin: 5%;
+    margin: 1%;
 }
 
 .tool img {
@@ -68,11 +68,11 @@ footer img {
     margin: 0 auto;
 }
 
-/* Additional styles for the right column */
-#right-column {
+/* Additional styles for the left column */
+#left-column {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     width: 200px;
     height: 100%;
     background-color: lightgreen;
@@ -80,24 +80,24 @@ footer img {
     color: black; /* Change text color for better visibility */
 }
 
-#right-column h2 {
+#left-column h2 {
     color: black; /* Change heading color for better visibility */
 }
 
-#right-column ul {
+#left-column ul {
     list-style-type: none;
     padding: 0;
 }
 
-#right-column ul li {
+#left-column ul li {
     margin-bottom: 10px;
 }
 
-#right-column ul li a {
+#left-column ul li a {
     color: black; /* Change link color for better visibility */
     text-decoration: none;
 }
 
-#right-column ul li a:hover {
+#left-column ul li a:hover {
     text-decoration: underline;
 }
