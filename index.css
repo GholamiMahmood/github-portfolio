@@ -61,9 +61,12 @@ section {
 
 footer {
     text-align: center;
-    padding: 1rem;
-    width: 100px;
-    
+}
+
+footer img {
+    width: 200px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto;
 }
 
 
