@@ -102,7 +102,7 @@ footer img {
     text-decoration: underline;
 }
 .right-column{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 150px; /* Adjust based on the width of the left column */
     width: calc(100% - 150px); /* Adjust based on the width of the left column */
