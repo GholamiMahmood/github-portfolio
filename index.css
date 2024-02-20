@@ -31,6 +31,10 @@ section {
 .bar {
     width: 100%;
     border-radius: 10px;
+    text-align: center;
+    line-height: 30px; /* Adjust based on the bar's height */
+    color: white;
+    position: relative;
 }
 
 .java {
