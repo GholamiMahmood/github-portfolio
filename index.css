@@ -14,12 +14,14 @@ header img {
     width: 300px; /* Adjust as needed */
     display: block;
     margin: 0 auto;
+    border-radius: 50%; /* Make the image circular */
+    border: 10px solid #fff; /* White border to create 3D effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for 3D effect */
 }
 
 section {
     padding: 2rem;
 }
-
 
 .java {
     background-color: #FF5722; /* Orange */
@@ -28,10 +30,9 @@ section {
 }
 
 .python {
-    color: #2196F3; /* Blue */
+    background-color: #2196F3; /* Blue */
     height: 65%;
-    margin:5%
-    
+    margin:5%;
 }
 
 .csharp {
@@ -65,4 +66,38 @@ footer img {
     width: 400px; /* Adjust as needed */
     display: block;
     margin: 0 auto;
+}
+
+/* Additional styles for the right column */
+#right-column {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    color: black; /* Change text color for better visibility */
+}
+
+#right-column h2 {
+    color: black; /* Change heading color for better visibility */
+}
+
+#right-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#right-column ul li {
+    margin-bottom: 10px;
+}
+
+#right-column ul li a {
+    color: black; /* Change link color for better visibility */
+    text-decoration: none;
+}
+
+#right-column ul li a:hover {
+    text-decoration: underline;
 }
