@@ -62,9 +62,7 @@ section {
 footer {
     text-align: center;
     padding: 1rem;
+    width: 200px;
 }
 
-footer img {
-    width: 50px; /* Adjust as needed */
-    margin-top: 10px; /* Add some space */
-}
+
