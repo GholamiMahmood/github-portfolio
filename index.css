@@ -70,25 +70,23 @@ footer img {
 
 /* Additional styles for the left column */
 #left-column {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 150px;
-    height: 100vh; /* Adjust based on your layout */
+    height: 100%;
     background-color: lightgreen;
     padding: 20px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    color: black; /* Change text color for better visibility */
 }
 
 #left-column h2 {
-    color: black;
-    margin-bottom: 10px;
+    color: black; /* Change heading color for better visibility */
 }
 
 #left-column ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 #left-column ul li {
@@ -96,20 +94,16 @@ footer img {
 }
 
 #left-column ul li a {
-    color: black;
+    color: black; /* Change link color for better visibility */
     text-decoration: none;
 }
 
 #left-column ul li a:hover {
     text-decoration: underline;
 }
-
-/* Additional styles for the right column */
-#right-column {
-    flex: 1;
-    background-color: rgb(14, 15, 14);
-    padding: 20px;
-    color: white;
-    overflow-y: auto;
+.right-column{   
+    padding-left: 150px; /* Adjust based on the width of the left column */   
+    background-color: rgb(14, 15, 14);    
+    color: white; /* Change text color for better visibility */
+    overflow-y: auto; /* Add scrollbar if content overflows */
 }
-
