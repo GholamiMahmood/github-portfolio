@@ -107,3 +107,11 @@ footer img {
     color: white; /* Change text color for better visibility */
     
 }
+table {
+    border: 2px solid white; /* Set the border of the table to be white */
+}
+
+table th,
+table td {
+    border: 1px solid white; /* Set the border of table cells (header cells and data cells) to be white */
+}
