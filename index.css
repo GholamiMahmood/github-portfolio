@@ -101,14 +101,9 @@ footer img {
 #left-column ul li a:hover {
     text-decoration: underline;
 }
-#right-column{
-    position: absolute;
-    top: 0;
-    padding-left: 150px; /* Adjust based on the width of the left column */
-    width: calc(100% - 150px); /* Adjust based on the width of the left column */
-    height: 100%;
-    background-color: rgb(14, 15, 14);
-    padding: 20px;
+#right-column{    
+    left: 150px; /* Adjust based on the width of the left column */    
+    background-color: rgb(14, 15, 14);   
     color: white; /* Change text color for better visibility */
     overflow-y: auto; /* Add scrollbar if content overflows */
 }
