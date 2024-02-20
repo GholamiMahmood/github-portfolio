@@ -25,19 +25,19 @@ section {
 
 .java {
     background-color: #FF5722; /* Orange */
-    height: 70%;
+    width: 70%;
     margin: 1%;
 }
 
 .python {
     background-color: #2196F3; /* Blue */
-    height: 65%;
+    width: 65%;
     margin:1%;
 }
 
 .csharp {
     background-color: #4CAF50; /* Green */
-    height: 65%;
+    width: 65%;
     margin: 1%;
 }
 
@@ -49,7 +49,7 @@ section {
 
 .cpp {
     background-color: #9C27B0; /* Purple */
-    height: 50%;
+    width: 50%;
     margin: 1%;
 }
 
