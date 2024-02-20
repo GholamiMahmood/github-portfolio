@@ -20,22 +20,6 @@ section {
     padding: 2rem;
 }
 
-.skill {
-    margin-bottom: 1rem;
-}
-
-.skill p {
-    margin: 0;
-}
-
-.bar {
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 30px; /* Adjust based on the bar's height */
-    color: white;
-    position: relative;
-}
 
 .java {
     background-color: #FF5722; /* Orange */
@@ -45,6 +29,7 @@ section {
 .python {
     background-color: #2196F3; /* Blue */
     height: 65%;
+    
 }
 
 .csharp {
