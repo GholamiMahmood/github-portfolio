@@ -24,27 +24,32 @@ section {
 .java {
     background-color: #FF5722; /* Orange */
     height: 70%;
+    margin: 5%;
 }
 
 .python {
-    background-color: #2196F3; /* Blue */
+    color: #2196F3; /* Blue */
     height: 65%;
+    margin:5%
     
 }
 
 .csharp {
     background-color: #4CAF50; /* Green */
     height: 65%;
+    margin: 5%;
 }
 
 .c {
     background-color: #FFEB3B; /* Yellow */
     height: 50%;
+    margin: 5%;
 }
 
 .cpp {
     background-color: #9C27B0; /* Purple */
     height: 50%;
+    margin: 5%;
 }
 
 .tool img {
