@@ -11,7 +11,7 @@ header {
 }
 
 header img {
-    width: 200px; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
     display: block;
     margin: 0 auto;
 }
@@ -29,29 +29,33 @@ section {
 }
 
 .bar {
-    background-color: #4CAF50; /* Green color for all bars */
     width: 100%;
     border-radius: 10px;
 }
 
 .java {
     background-color: #FF5722; /* Orange */
+    height: 70%;
 }
 
 .python {
     background-color: #2196F3; /* Blue */
+    height: 65%;
 }
 
 .csharp {
     background-color: #4CAF50; /* Green */
+    height: 65%;
 }
 
 .c {
     background-color: #FFEB3B; /* Yellow */
+    height: 50%;
 }
 
 .cpp {
     background-color: #9C27B0; /* Purple */
+    height: 50%;
 }
 
 .tool img {
@@ -68,5 +72,3 @@ footer img {
     display: block;
     margin: 0 auto;
 }
-
-
