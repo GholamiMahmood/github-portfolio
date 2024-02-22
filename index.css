@@ -27,67 +27,74 @@ section {
     background-color: #9b8ad8; /* Orange */
     width: 70%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 .css {
     background-color: #FF5722; /* Orange */
     width: 70%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 .java {
     background-color: #f5bedc; /* Orange */
     width: 70%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 
 .python {
     background-color: #2196F3; /* Blue */
     width: 65%;
     margin:1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 
 .csharp {
     background-color: #4CAF50; /* Green */
     width: 65%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 .jscript {
     background-color: #b5eeb7; /* Green */
     width: 60%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 .c {
     background-color: #ebe18b; /* Yellow */
     width: 50%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 
 .cpp {
     background-color: #9C27B0; /* Purple */
     width: 50%;
     margin: 1%;
-    border-start-end-radius: 50px;
+    border-end-end-radius: 50px;
     border-end-start-radius: 50px;
+    color:black;
 }
 
 .tool img {
     width: 100px;
     margin-right: 10px;
-    border-start-end-radius: 50px;
-    border-end-start-radius: 50px;
+    
 }
 
 footer {
