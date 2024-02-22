@@ -9,6 +9,11 @@ body {
 header {
     text-align: center;
 }
+#about{
+    font-style: italic;
+    font-size: 30px;
+    line-height: 2;    
+}
 
 header img {
     width: 300px; /* Adjust as needed */
@@ -25,27 +30,27 @@ section {
 
 .html {
     background-color: #9b8ad8; /* Orange */
-    width: 70%;
+    width: 75%;
     margin: 1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 .css {
     background-color: #FF5722; /* Orange */
-    width: 70%;
+    width: 75%;
     margin: 1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 .java {
     background-color: #f5bedc; /* Orange */
     width: 70%;
     margin: 1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 
 .python {
@@ -53,8 +58,8 @@ section {
     width: 65%;
     margin:1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 
 .csharp {
@@ -62,24 +67,24 @@ section {
     width: 65%;
     margin: 1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 .jscript {
     background-color: #b5eeb7; /* Green */
     width: 60%;
     margin: 1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 .c {
     background-color: #ebe18b; /* Yellow */
     width: 50%;
     margin: 1%;
     border-end-end-radius: 50px;
-    border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 
 .cpp {
@@ -89,6 +94,7 @@ section {
     border-end-end-radius: 50px;
     border-end-start-radius: 50px;
     color:black;
+    font-weight: bold;
 }
 
 .tool img {
