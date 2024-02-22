@@ -23,39 +23,71 @@ section {
     padding: 2rem;
 }
 
-.java {
+.html {
+    background-color: #9b8ad8; /* Orange */
+    width: 70%;
+    margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+}
+.css {
     background-color: #FF5722; /* Orange */
     width: 70%;
     margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+}
+.java {
+    background-color: #f5bedc; /* Orange */
+    width: 70%;
+    margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
 }
 
 .python {
     background-color: #2196F3; /* Blue */
     width: 65%;
     margin:1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
 }
 
 .csharp {
     background-color: #4CAF50; /* Green */
     width: 65%;
     margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
 }
-
+.jscript {
+    background-color: #b5eeb7; /* Green */
+    width: 60%;
+    margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+}
 .c {
-    background-color: #FFEB3B; /* Yellow */
+    background-color: #ebe18b; /* Yellow */
     width: 50%;
     margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
 }
 
 .cpp {
     background-color: #9C27B0; /* Purple */
     width: 50%;
     margin: 1%;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
 }
 
 .tool img {
     width: 100px;
     margin-right: 10px;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
 }
 
 footer {
