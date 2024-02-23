@@ -185,14 +185,13 @@ footer img {
 }
 table {
     border: 2px solid white;
-    color: #fff; 
-
 }
 
 table th,
 table td {
     border: 1px solid white;
-    padding: 5px; 
+    padding: 5px;
+    color: #fff;  
 }
 hr.line{
     border-top: 2px dashed rgb(252, 242, 242);
