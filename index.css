@@ -948,9 +948,10 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .tool-card {
-        min-height: 125px;
-    }
+   .tool-card {
+    min-height: 145px;
+    padding: 20px;
+}
 
     .video-card img {
         height: 220px;
