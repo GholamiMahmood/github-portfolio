@@ -945,7 +945,7 @@ footer p {
     }
 
      .tools-grid {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 6fr);
     } 
 
    .tool-card img {
