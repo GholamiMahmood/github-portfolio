@@ -949,8 +949,8 @@ footer p {
     } 
 
    .tool-card img {
-    width: 70%;
-    max-width: 100px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
     object-fit: contain;
 } 
