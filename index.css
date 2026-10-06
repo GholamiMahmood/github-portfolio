@@ -296,11 +296,11 @@ img {
 
 .section {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1500px;
 
     margin: auto;
 
-    padding: 110px 5%;
+    padding: 60px 2.5%;
 }
 
 .section-heading {
@@ -948,7 +948,14 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     } 
 
-  
+   .tool-card img {
+    width: 2cm;
+    height: 2cm;
+      object-fit: contain;
+   
+     
+    
+} 
 
 
     .video-card img {
@@ -965,11 +972,3 @@ footer p {
         word-break: break-word;
     }
 }
- .tool-card img {
-    width: 2cm;
-    height: 2cm;
-      object-fit: contain;
-   
-     
-    
-} 
