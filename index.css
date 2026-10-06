@@ -297,7 +297,10 @@ img {
 .section {
     width: 100%;
     max-width: 1500px;
-    padding: 30px 2.5%;
+
+    margin: auto;
+
+    padding: 60px 2.5%;
 }
 
 .section-heading {
