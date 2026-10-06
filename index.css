@@ -935,25 +935,25 @@ footer p {
         height: 300px;
     }
 
-    /* .section {
+    .section {
         padding: 70px 20px;
-    } */
+    }
 
     .skill-card,
     .project-card {
         padding: 25px;
     }
 
-    /* .tools-grid {
+     .tools-grid {
         grid-template-columns: repeat(2, 1fr);
-    } */
+    } 
 
-   /* .tool-card img {
+   .tool-card img {
     width: 70%;
     max-width: 100px;
     height: auto;
     object-fit: contain;
-} */
+} 
 
 
     .video-card img {
