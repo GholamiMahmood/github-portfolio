@@ -944,9 +944,9 @@ footer p {
         padding: 25px;
     }
 
-    .tools-grid {
+    /* .tools-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
    /* .tool-card img {
     width: 70%;
