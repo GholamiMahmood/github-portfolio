@@ -1,116 +1,455 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <!-- Left column section -->
-    <section id="left-column">
-        <h2>Liste</h2>
-        <ul>            
-            <li><a href="#skills">Langages</a></li>
+<!DOCTYPE html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahmood Gholami | Développeur Full Stack</title>
+
+<link rel="stylesheet" href="index.css">
+
+</head> <body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#about" class="logo">Mahmood Gholami</a>
+
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
             <li><a href="#tools">Outils</a></li>
             <li><a href="#projects">Projets</a></li>
-            <li><a href="#video">Vidéo</a></li>
+            <li><a href="#video">Vidéos</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </div>
+</nav>
+
+
+<main>
+
+    <!-- Hero / About -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+
+            <div class="hero-text">
+                <p class="eyebrow">DÉVELOPPEUR FULL STACK</p>
+
+                <h1>
+                    Bonjour, je suis
+                    <span>Mahmood Gholami</span>
+                </h1>
+
+                <p class="hero-description">
+                    Passionné par le développement logiciel et les technologies
+                    web, je m'intéresse particulièrement à la conception
+                    d'applications Full Stack modernes et évolutives.
+                </p>
+
+                <p class="hero-description">
+                    Je suis profondément attaché à l'amélioration continue et
+                    considère la maîtrise des nouvelles technologies comme un
+                    pilier essentiel de mon évolution professionnelle.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Voir mes projets
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/mahmood.jpeg" alt="Mahmood Gholami">
+            </div>
+
+        </div>
     </section>
 
-    <!-- Main content -->
-    <main id="right-column">
-        <header>
-            <img src="images/mahmood.jpeg" alt="Mahmood Gholami">
-        </header>
-        
-        <section id="about" >
-            <p>Je suis profondément attaché à l'amélioration continue, et considère la maîtrise des nouvelles technologies comme un pilier essentiel de mon évolution professionnelle..</p>
-        </section>
-        <hr class="line">
-        <section id="skills">
-            <h2>Langages de programmation et cadre:</h2> 
-            <div class="html">HTML 75%</div>
-            <div class="css">CSS 75%</div>       
-            <div class="java">Java 70%</div> 
-            <div class="sql">Sql 70%</div> 
-            <div class="cpp">C++ 70%</div>    
-            <div class="python">Python 65%</div>        
-            <div class="csharp">C# 65%</div>
-            <div class="react">React 65%</div> 
-            <div class="jscript">JavaScript 60%</div> 
-            <div class="c">C 60%</div> 
-            <div class="asp">ASP.NET 55%</div>            
-            
-        </section>
-        <hr class="line">
-        <section id="tools">
-            <h2>Outils:</h2>
-            <div class="tool">
-                <img src="images/jenkins.jpg" alt="Jenkins" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/docker.png" alt="Docker" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/git.png" alt="Git" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/azure.png" alt="Azure" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/ij.png" alt="ij" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/postman.png" alt="postman" style="width: 80px;height: 45px;padding: 5px;"><br><br>
-                <img src="images/vc.jpg" alt="vc" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/vc_code.png" alt="vc_code" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/r.jpg" alt="r" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/spss.png" alt="spss" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/star.png" alt="star" style="width: 80px;height: 45px;padding: 5px;">
-                <img src="images/power.jpg" alt="power" style="width: 80px;height: 45px;padding: 5px;">
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <div class="section-heading">
+            <p class="section-label">COMPÉTENCES</p>
+            <h2>Mes compétences techniques</h2>
+            <p>
+                Technologies et langages que j'utilise dans mes projets
+                de développement.
+            </p>
+        </div>
+
+
+        <div class="skills-grid">
+
+            <!-- Web Development -->
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+
+                <h3>Développement Web</h3>
+
+                <p>
+                    Création d'interfaces web et développement
+                    d'applications Full Stack.
+                </p>
+
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Angular</span>
+                    <span>Django</span>
+                    <span>ASP.NET</span>
+                </div>
             </div>
-        </section>
-        <hr class="line">
-        <section id="projects">
-            <h2>Projets</h2>
-            <div class="projet">
-                <table class="projet">
-                    <tr>
-                        <th>n</th>
-                        <th>Lien</th>
-                        <th>Description</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td><a href="https://drive.google.com/file/d/1FaMfTob5iwDdmvCJh7hGbJJtaKJher8o/view?usp=drive_link">E-commerce</a></td> 
-                        <td>Application Web ( Full Stack:  React ,JavaScript,Java Spring Boot , MySql) </td>                   
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="https://drive.google.com/file/d/1jcWWjbBeZTtFjhHBEI-AdTnoHc5aoeuz/view?usp=sharing">Health : Clinic</a></td>  
-                        <td>Application Web (Full Stack:  Angular, HTML, CSS, Django, PostgreSQL)</td>                  
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><a href="https://drive.google.com/file/d/1S_3xKm0kZ4w4ViMO7PmwqJlv0uHMqKRz/view?usp=drive_link">Gestion du personnel</a></td> 
-                        <td>Application Web (Full Stack/MVC:  .NET, ASP.NET, C#, HTML, CSS,JavaScript,  SQL Server)</td>                   
-                    </tr>
-                 
-                </table> 
+
+
+            <!-- Programming Languages -->
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+
+                <h3>Langages de programmation</h3>
+
+                <p>
+                    Programmation orientée objet, développement
+                    logiciel et manipulation des données.
+                </p>
+
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>C#</span>
+                    <span>C++</span>
+                    <span>C</span>
+                    <span>SQL</span>
+                </div>
             </div>
-        </section>
-        <hr class="line">
-        <section id="video">
-            <h3>Vidéos d'applications: </h3>
-            <h3>1) E-commerce </h3>
-            <a href="https://1drv.ms/v/c/a5112853d0239013/EZ8_9Uc7icpDjwNPIFa21S4BZEpYFIWdDSDgyD-jan7rhw?e=QUFeB6" target="_blank">
-                <img src="images/img-1.png" alt="projet"  width="450" height="300">
+
+
+            <!-- Databases -->
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+
+                <h3>Bases de données</h3>
+
+                <p>
+                    Conception et utilisation de bases de données
+                    relationnelles.
+                </p>
+
+                <div class="skill-tags">
+                    <span>MySQL</span>
+                    <span>PostgreSQL</span>
+                    <span>SQL Server</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Tools -->
+    <section id="tools" class="section section-dark">
+
+        <div class="section-heading">
+            <p class="section-label">OUTILS</p>
+            <h2>Outils & technologies</h2>
+            <p>
+                Environnement et outils utilisés dans mon travail
+                et mes projets.
+            </p>
+        </div>
+
+
+        <div class="tools-grid">
+
+            <div class="tool-card">
+                <img src="images/git.png" alt="Git">
+                <span>Git</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/docker.png" alt="Docker">
+                <span>Docker</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/jenkins.jpg" alt="Jenkins">
+                <span>Jenkins</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/azure.png" alt="Microsoft Azure">
+                <span>Azure</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/postman.png" alt="Postman">
+                <span>Postman</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/ij.png" alt="IntelliJ IDEA">
+                <span>IntelliJ IDEA</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/vc.jpg" alt="Visual Studio">
+                <span>Visual Studio</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/vc_code.png" alt="Visual Studio Code">
+                <span>VS Code</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/r.jpg" alt="R">
+                <span>R</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/spss.png" alt="SPSS">
+                <span>SPSS</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/star.png" alt="StarUML">
+                <span>StarUML</span>
+            </div>
+
+            <div class="tool-card">
+                <img src="images/power.jpg" alt="Power BI">
+                <span>Power BI</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <div class="section-heading">
+            <p class="section-label">PORTFOLIO</p>
+            <h2>Mes projets</h2>
+            <p>
+                Quelques applications Full Stack réalisées avec
+                différentes technologies.
+            </p>
+        </div>
+
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+
+                <div class="project-number">01</div>
+
+                <div class="project-content">
+
+                    <h3>E-commerce</h3>
+
+                    <p>
+                        Application web Full Stack destinée à la gestion
+                        d'une plateforme de commerce électronique.
+                    </p>
+
+                    <div class="project-technologies">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <a
+                        href="https://drive.google.com/file/d/1FaMfTob5iwDdmvCJh7hGbJJtaKJher8o/view?usp=drive_link"
+                        target="_blank"
+                        class="project-link">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+
+                <div class="project-number">02</div>
+
+                <div class="project-content">
+
+                    <h3>Health — Clinic</h3>
+
+                    <p>
+                        Application web Full Stack destinée à la gestion
+                        d'une clinique et de ses informations.
+                    </p>
+
+                    <div class="project-technologies">
+                        <span>Angular</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                    </div>
+
+                    <a
+                        href="https://drive.google.com/file/d/1jcWWjbBeZTtFjhHBEI-AdTnoHc5aoeuz/view?usp=sharing"
+                        target="_blank"
+                        class="project-link">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 3 -->
+            <article class="project-card">
+
+                <div class="project-number">03</div>
+
+                <div class="project-content">
+
+                    <h3>Gestion du personnel</h3>
+
+                    <p>
+                        Application web Full Stack / MVC pour la gestion
+                        des employés et des informations du personnel.
+                    </p>
+
+                    <div class="project-technologies">
+                        <span>.NET</span>
+                        <span>ASP.NET</span>
+                        <span>C#</span>
+                        <span>JavaScript</span>
+                        <span>SQL Server</span>
+                    </div>
+
+                    <a
+                        href="https://drive.google.com/file/d/1S_3xKm0kZ4w4ViMO7PmwqJlv0uHMqKRz/view?usp=drive_link"
+                        target="_blank"
+                        class="project-link">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Videos -->
+    <section id="video" class="section section-light">
+
+        <div class="section-heading">
+            <p class="section-label">DÉMONSTRATIONS</p>
+            <h2>Vidéos de mes applications</h2>
+            <p>
+                Découvrez quelques démonstrations de mes projets.
+            </p>
+        </div>
+
+
+        <div class="videos-grid">
+
+            <div class="video-card">
+
+                <a
+                    href="https://1drv.ms/v/c/a5112853d0239013/EZ8_9Uc7icpDjwNPIFa21S4BZEpYFIWdDSDgyD-jan7rhw?e=QUFeB6"
+                    target="_blank">
+
+                    <img
+                        src="images/img-1.png"
+                        alt="Démonstration du projet E-commerce">
+
+                    <div class="video-overlay">
+                        <span class="play-button">▶</span>
+                    </div>
+
+                </a>
+
+                <div class="video-info">
+                    <h3>E-commerce</h3>
+                    <p>React · Spring Boot · MySQL</p>
+                </div>
+
+            </div>
+
+
+            <div class="video-card">
+
+                <a
+                    href="https://1drv.ms/v/c/a5112853d0239013/EeYux_F8m01HtdngQPeWr_QBdf96s2sy4W0kBDMXa_zUsA?e=Gzzcg3"
+                    target="_blank">
+
+                    <img
+                        src="images/img-2.png"
+                        alt="Démonstration du projet Gestion du personnel">
+
+                    <div class="video-overlay">
+                        <span class="play-button">▶</span>
+                    </div>
+
+                </a>
+
+                <div class="video-info">
+                    <h3>Gestion du personnel</h3>
+                    <p>.NET · ASP.NET · C# · SQL Server</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-content">
+
+            <p class="section-label">CONTACT</p>
+
+            <h2>Travaillons ensemble</h2>
+
+            <p>
+                Vous souhaitez en savoir plus sur mes projets,
+                mes compétences ou discuter d'une opportunité ?
+                N'hésitez pas à me contacter.
+            </p>
+
+            <a
+                href="mailto:doexe123@gmail.com"
+                class="email-link">
+                doexe123@gmail.com
             </a>
-            <br>
-            <h3>2) Gestion du personnel </h3>
-            <a href="https://1drv.ms/v/c/a5112853d0239013/EeYux_F8m01HtdngQPeWr_QBdf96s2sy4W0kBDMXa_zUsA?e=Gzzcg3" target="_blank">
-                <img src="images/img-2.png" alt="projet"  width="450" height="300">
-            </a>
-        </section>
-        <hr class="line">    
-        <section id="contact">
-            <h2>Contact:</h2>
-            Adresse courriel: <span style="color: rgb(255, 0, 0);">doexe123@gmail.com</span><br>             
-        </section>
-        
-        <footer>
-            Dernière révision : 2025-04-01
-        </footer>
-    </main>
-</body>
-</html>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+    <p>
+        © 2026 Mahmood Gholami. Tous droits réservés.
+    </p>
+
+</footer>
+
+</body> </html>
